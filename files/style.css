@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Outfit', 'JetBrains Mono', monospace;
+    box-sizing: border-box;
+}
+
+.chatbox-container {
+    position: absolute;
+    bottom: 0;
+    width: -moz-calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: calc(100% - 20px);
+    padding: 10px;
+    max-width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+}
+
+.chatbox-class {
+    position: relative;
+}
+
+/* Message Style */
+
+.chat-message {
+    margin-bottom: 1px;
+    vertical-align: middle;
+    padding: 1px 4px 1px 4px;
+    background: wheat;
+}
+
+.name {
+    color: #1E1E1E;
+    font-size: inherit;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.message {
+    color: #1E1E1E;
+    font-size: inherit;
+    font-weight: 600;
+    width: fit-content;
+    vertical-align: middle;
+}
+
+/* Events */
+.chat-message.highlight {
+    background-color: rgba(255, 162, 129, 0.719);
+    color: black;
+    padding: 2px 4px;
+    display: inline-block;
+    width: -webkit-fill-available;
+}
+
+.chat-message.event {
+    background-color: rgba(0, 0, 0, 0.356);
+    color:rgba(255, 243, 239, 0.719);
+    padding: 2px 4px;
+    display: inline-block;
+    width: -webkit-fill-available;
+}
+
+/* emote */
+img {
+    margin: 0;
+    padding: 0;
+}
+
+img.emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.chatbox-container::-webkit-scrollbar {
+    display: none;
+}
+
+.chatbox-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

@@ -1,0 +1,27 @@
+{
+    "badge-info": {
+        "subscriber": "3"
+    },
+    "badges": {
+        "subscriber": "3"
+    },
+    "bits": "100",
+    "color": "#8A2BE2",
+    "display-name": "anonnonmouse",
+    "emotes": null,
+    "first-msg": false,
+    "flags": null,
+    "id": "a213fc6c-1ed6-423f-b7d2-f7a1fe2f6902",
+    "mod": false,
+    "room-id": "526763937",
+    "subscriber": true,
+    "tmi-sent-ts": "1637632170937",
+    "turbo": false,
+    "user-id": "668303605",
+    "user-type": null,
+    "emotes-raw": null,
+    "badge-info-raw": "subscriber/3",
+    "badges-raw": "subscriber/3",
+    "username": "anonnonmouse",
+    "message-type": "chat"
+}
