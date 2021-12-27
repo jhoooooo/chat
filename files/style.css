@@ -33,7 +33,28 @@ body {
     margin-bottom: 1px;
     vertical-align: middle;
     padding: 1px 4px 1px 4px;
+}
+
+/* Events */
+.chat-message.chat {
+    margin-bottom: 1px;
+    vertical-align: middle;
+    padding: 1px 4px 1px 4px;
     background: wheat;
+}
+
+.chat-message.highlight {
+    background-color: rgba(255, 162, 129, 1)!important;
+    color: black!important;
+    padding: 2px 4px;
+    width: -webkit-fill-available;
+}
+
+.chat-message.event {
+    background-color: rgb(255, 216, 3, 1)!important;
+    color:black!important;
+    padding: 2px 4px;
+    width: -webkit-fill-available;
 }
 
 .name {
@@ -41,6 +62,8 @@ body {
     font-size: inherit;
     font-weight: 900;
     vertical-align: middle;
+    display: inline;
+
 }
 
 .message {
@@ -49,23 +72,7 @@ body {
     font-weight: 600;
     width: fit-content;
     vertical-align: middle;
-}
-
-/* Events */
-.chat-message.highlight {
-    background-color: rgba(255, 162, 129, 0.719);
-    color: black;
-    padding: 2px 4px;
-    display: inline-block;
-    width: -webkit-fill-available;
-}
-
-.chat-message.event {
-    background-color: rgba(0, 0, 0, 0.356);
-    color:rgba(255, 243, 239, 0.719);
-    padding: 2px 4px;
-    display: inline-block;
-    width: -webkit-fill-available;
+    display: inline;
 }
 
 /* emote */
@@ -93,6 +100,7 @@ img.emote {
 }
 
 .chatbox-container {
+    /* overflow: hidden; */
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;

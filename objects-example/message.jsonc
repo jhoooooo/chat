@@ -1,0 +1,41 @@
+/* Parameters =
+channel: String - Channel name
+userstate: Object - Userstate object
+message: String - Message received
+self: Boolean - Message was sent by the client
+*/
+
+// Channel = #shroud
+// Tags
+
+{
+    "badge-info": null,
+    "badges": {
+        "broadcaster": "1",
+        "glhf-pledge": "1"
+    },
+    "color": "#DAA520",
+    "display-name": "jhoooooooooooo",
+    "emotes": {
+        "emotesv2_64739521f0d2461ead113f151bc08b09": [
+            "0-8"
+        ]
+    },
+    "first-msg": false,
+    "flags": null,
+    "id": "1bd1024c-a112-4920-9997-d1e9d68a1aca",
+    "mod": false,
+    "room-id": "106972596",
+    "subscriber": false,
+    "tmi-sent-ts": "1637815080901",
+    "turbo": false,
+    "user-id": "106972596",
+    "user-type": null,
+    "emotes-raw": "emotesv2_64739521f0d2461ead113f151bc08b09:0-8",
+    "badge-info-raw": null,
+    "badges-raw": "broadcaster/1,glhf-pledge/1",
+    "username": "jhoooooooooooo",
+    "message-type": "chat" //chat, action, whisper
+}
+
+//Seld = false
